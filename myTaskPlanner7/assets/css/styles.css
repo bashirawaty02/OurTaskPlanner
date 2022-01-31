@@ -1,0 +1,60 @@
+
+      .modal-header {
+        background: #f7941e;
+        color: #fff;
+      }
+
+      .required:after {
+        content: "*";
+        color: red;
+      }
+    .tasks{
+        margin-top: 20px;
+        
+    }
+
+    /* .addnewtask {
+        margin-left: 0px;
+        position: relative;
+        left: 0
+        padding: 50px;
+        float: left;
+    } */
+
+    /* .addnewtask {
+      padding-left: 0p;
+    } */
+
+    .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+      width: 100%;
+      padding-right: var(--bs-gutter-x, 0.75rem);
+      padding-left: 0;
+      margin-right: auto;
+      margin-left: auto;
+  }
+.edit {
+padding: 4px 19px ;
+
+}
+.edit:hover {
+  background-color: #f7941e;
+  color: #fff;
+}
+.delete {
+  padding: 4px 19px ;
+}
+.delete:hover {
+  background-color: #f7941e;
+  color: #fff;
+}
+
+ #dateDisplay{
+
+      float: right;
+      font-size: 1.5rem;
+  background: -webkit-linear-gradient(#ee0979 50%, #ff6a00 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+
+
